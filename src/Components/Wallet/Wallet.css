@@ -1,0 +1,31 @@
+body{
+    background-image: url('../../assets/walletpage.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
+h1,h5{
+    background-color: rgb(103, 120, 144);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+button
+{
+    display: block;
+    margin: 15px 0px;   
+}
+
+input
+{
+    width: 100%;
+}
+
+b
+{
+
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}

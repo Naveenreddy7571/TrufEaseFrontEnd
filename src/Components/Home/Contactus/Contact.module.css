@@ -1,0 +1,176 @@
+.contact_area_section_gap
+{
+    padding: 120px 0;
+}
+section {
+    background: #fff;
+    margin: auto;
+}
+
+.contact_container {
+    position: sticky;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #fafafa;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big_circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #F7DCB9, #F7DCB9);
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-40%, 38%);
+}
+
+.form {
+    width: 100%;
+    max-width: 820px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact_info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+.text {
+    color: #333;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.contactinformation {
+    display: flex;
+    color: #555;
+    margin: 0.7rem 0 !important;
+    align-items: center;
+    font-size: 0.95rem;
+}
+.social_media {
+    padding: 2rem 0 0 0;
+}
+.social_media p {
+    color: #333;
+}
+.social_icons {
+    display: flex;
+    margin-top: 0.5rem;
+}
+.social_icons i {
+    margin: 10px 0;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.social_icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #1c8d10, #149279);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+}
+
+.social_icons i {
+    margin: 10px 0;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.contactfoorm {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+    background-color: #F7DCB9;
+}
+
+a, area, button, [role="button"], input:not([type="range"]), label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+.title {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.title {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+.input_container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+textarea.input {
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 5px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.input {
+    width: 90%;
+    outline: none;
+    border: 2px solid black;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: black;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.input_container_textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+.input_container_textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}

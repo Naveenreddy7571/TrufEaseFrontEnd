@@ -1,0 +1,41 @@
+.customerhead {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7c1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.all {
+    text-align: center;
+    color: #2f4f2f;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.customertable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.customertable th,
+.customertable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.customertable th {
+    align-items: center;
+    justify-content: center;
+    background-color: #2f4f2f;
+    color: white;
+    font-weight: bold;
+}
+
+.customertable tr:nth-child(even) {
+    background-color: #949066;
+  }

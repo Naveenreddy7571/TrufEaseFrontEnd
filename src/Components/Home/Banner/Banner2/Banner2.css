@@ -1,0 +1,39 @@
+.Container
+{
+    display: flex;
+    background-color: #F7DCB9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titlee {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 100px;
+    margin-left: 250px;
+    padding-top: 20px;
+    font-size: xx-large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.about
+{
+    background-color:#F7DCB9 ;
+}
+img
+{
+    height: 400px;
+    width: 500px;
+}
+
+.desciption p{
+    word-wrap: break-word;
+    text-align: center;
+    margin: 150px 10px;
+    line-height: 1.8;
+    color: black;
+
+}

@@ -1,0 +1,103 @@
+.whole {
+    background-image: url('../../assets/IMAGES/back-3.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.card {
+    float: right;
+    font-weight: 300;
+    color: #ccc;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-right: 350px;
+    background-color: #eef5d8;
+    backdrop-filter: blur(10px);
+    background: transparent;
+
+}
+
+.cardheader {
+    margin: 30px;
+    background-color: #2f4f2f;
+    color: #ffffa2;
+    padding: 20px;
+    text-align: center;
+}
+
+.cardbody {
+    padding: 20px;
+}
+
+.cardbody h2 {
+    margin-top: 0;
+    color: #000;
+}
+
+.cardbody p {
+    color: #000;
+    margin: 10px 0;
+}
+
+.cardbody.price h2 {
+    color: #000;
+    margin: 10px 0;
+}
+
+.booking {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.bookinginput {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookinginput label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.bookinginput input,
+.bookinginput select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bookbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 155px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bookbutton {
+    background-color: #2f4f2f;
+    color: #fff;
+}
+
+.bookbutton:hover {
+    opacity: 0.8;
+}
+
+.imm{
+    width: 250px;
+    margin-left: 90px;
+    object-fit: cover;
+    object-position: center;
+}

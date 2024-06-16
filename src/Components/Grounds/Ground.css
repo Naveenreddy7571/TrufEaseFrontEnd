@@ -1,0 +1,31 @@
+.ground-container {
+    background: linear-gradient(to right, #fde2e2, #fff3c1); 
+    margin: 40px; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    padding: 20px; 
+}
+
+.container img {
+    height: 350px; 
+    width: 250px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.container img:hover {
+    transform: scale(1.05); 
+}
+
+.container h1 {
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    letter-spacing: 1px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+}

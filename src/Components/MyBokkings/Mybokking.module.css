@@ -1,0 +1,46 @@
+.mybooking_container {
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.mybooking_container h1 {
+    text-align: center;
+    background-color: rgb(164, 154, 116);
+    padding: 20px 0;
+    color: black;
+}
+
+.booking_info_table {
+    width: 100%;
+
+}
+
+.booking_info_table th,.booking_info_table td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+.booking_info_table th {
+    background-color: rgb(190, 188, 180);
+    color: black;
+}
+
+
+#booking-btn
+{
+    background-color: rgb(232, 51, 51);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+#booking-btn:hover
+{
+    background-color: brown;
+}

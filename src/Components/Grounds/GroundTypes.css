@@ -1,0 +1,15 @@
+.container
+{
+    display: flex;
+}
+
+.ground-types h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.ground-types
+{
+    background-color: #F7DCB9;
+}
+

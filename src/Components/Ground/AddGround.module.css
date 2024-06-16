@@ -1,0 +1,73 @@
+.add {
+  background-image: url('../../assets/IMAGES/back-1.avif');
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.addgroundcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7c1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.addgroundtitle {
+  background-color: #2f4f2f;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.addgroundform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formgroup label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2f4f2f;
+}
+
+.formgroup input,
+.formgroup textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formgroup input[type="file"] {
+  padding: 3px;
+}
+
+.addgroundbutton {
+  background-color: #2f4f2f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.addgroundbutton:hover {
+  background-color: #254d25;
+}

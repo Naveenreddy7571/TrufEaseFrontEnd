@@ -1,0 +1,113 @@
+.cardscontainer{
+    background-image: url('../../assets/IMAGES/back-4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.card2 {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    background: transparent;
+    background-image: linear-gradient(to right, rgb(7, 173, 60) , rgb(196, 235, 196));
+}
+
+.card2img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card2pric {
+    font-family: Arial, sans-serif;
+
+    color: hsl(0, 0%, 20%);
+}
+
+.btnbook {
+    background-color: hsl(138, 66%, 34%);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 1.5s;
+}
+
+.btnbook:hover {
+    background-color: rgb(9, 51, 14);
+}
+
+.dt {
+    display: flex;
+    margin: 12px;
+    gap: 15px;
+}
+
+hr {
+    border: 1px solid hsl(0, 0%, 4%);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.date {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.date:focus {
+    border-color: #e6e9ec;
+    box-shadow: 0 0 8px rgba(235, 244, 250, 0.6);
+}
+
+.time {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.contain {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: transparent;
+    background-color: azure;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: auto;
+    display: inline-block;
+}
+
+.p {
+    background: transparent;
+    color: rgb(134, 219, 178);
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
